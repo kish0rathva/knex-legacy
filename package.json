@@ -1,5 +1,5 @@
 {
-  "name": "@auctionmobility/knex-legacy-jqv1",
+  "name": "knex-legacy-v1",
   "version": "1.0.0",
   "description": "A batteries-included SQL query & schema builder for Postgres, MySQL and SQLite3 and the Browser",
   "main": "knex.js",
