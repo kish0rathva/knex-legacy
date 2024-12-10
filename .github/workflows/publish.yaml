@@ -18,6 +18,9 @@ jobs:
         with:
           node-version: '0.12'
 
+      - name: Configure npm authentication
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.npm_token }}" > ~/.npmrc
+
       - run: npm install
         env:
           NPM_PACKAGE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
