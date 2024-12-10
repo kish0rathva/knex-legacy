@@ -64,12 +64,9 @@
   "bin": {
     "knex": "./lib/bin/cli.js"
   },
-  "publishConfig": {
-    "@auctionmobility:registry": "https://npm.pkg.github.com"
-  },
   "repository": {
     "type": "git",
-    "url": "git@github.com:auctionmobility/nodejs-shared-packages.git"
+    "url": "git@github.com:kish0rathva/knex-legacy.git"
   },
   "keywords": [
     "sql",
