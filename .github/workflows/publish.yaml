@@ -23,6 +23,5 @@ jobs:
           NPM_PACKAGE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - run: npm publish
-        working-directory: ./knex-legacy-jqv1
         env:
           NPM_PACKAGE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
