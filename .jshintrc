@@ -1,0 +1,13 @@
+{
+  "browser": false,
+  "latedef": true,
+  "eqeqeq" : true,
+  "newcap": false,
+  "node": true,
+  "strict": true,
+  "newcap": true,
+  "undef": true,
+  "trailing": true,
+  "unused": true,
+  "predef": [ "-Promise" ]
+}

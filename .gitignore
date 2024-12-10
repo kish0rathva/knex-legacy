@@ -1,0 +1,16 @@
+raw
+*.sw?
+.idea
+.DS_Store
+.vagrant
+node_modules
+test.sqlite3
+npm-debug.log
+
+# Testing for the knex cli:
+bin/migrations-folder
+bin/db.sqlite3
+
+# Bench stuff
+test/bench/temp
+test/coverage/*
